@@ -1,0 +1,15 @@
+CA short suggestion :
+
+"Tutorial 2 full, 
+Assignment, 
+Memory, 
+Adder, 
+Selector, 
+Register, 
+Single cycle, 
+Pipeline, pipeline hazards,
+ISA, 
+Arithmetic of Computer, 
+Float number Addition"
+
+- Nahid Sir
