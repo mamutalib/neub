@@ -12,3 +12,4 @@ z = int (242.234)
 print(x,y,z)
 
 # Similarly, we can convert str(string) & float
+
