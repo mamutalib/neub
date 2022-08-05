@@ -5,6 +5,9 @@
     - allow duplicates
 '''
 
+from distutils.log import info
+
+
 myList = ["Mutalib", "ibrahim", "iftekhar", "Jayed", "Saddam", "Delwar"]
 
 print(myList)
@@ -25,4 +28,23 @@ print(type(personYoungOld))
 
 myInfo = list(("Mutalib", 24, "Male", "Bangladesh", "Student"))
 
+
+# print(myInfo[0]) Will print only the first item
+
+print(myInfo)
+myInfo[0] = "Md. Abdul Mutalib"
+print(myInfo)
+
+myInfo.append(190303020001)
+print(myInfo)
+
+myInfo.extend(myList)
+print(myInfo)
+
+myInfo.remove("ibrahim")
+
+print(myInfo)
+print("\n")
+
+print(myInfo.pop())
 print(myInfo)
