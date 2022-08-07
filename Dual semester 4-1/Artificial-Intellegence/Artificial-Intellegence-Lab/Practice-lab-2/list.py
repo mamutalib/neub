@@ -46,5 +46,21 @@ myInfo.remove("ibrahim")
 print(myInfo)
 print("\n")
 
-print(myInfo.pop())
 print(myInfo)
+
+for x in myInfo:
+    print(x)
+
+print('\n')    
+for i in range(len(myInfo)):
+    print(myInfo[i])
+
+print('\n')
+i = 0
+while i <len(myInfo):
+    print(myInfo[i])
+    
+    i+=1
+
+
+[print(x) for x in myInfo]
