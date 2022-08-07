@@ -5,3 +5,7 @@
 4. Why is queue important in microprocessor?
 5. What is the difference between maximum and minimum mode?
 6. What is the minimum voltage needed for 6 input pins to register as logic 1?
+
+## Necessary link
+>- [8086 is a 16-bit Microprocessor](https://www.davuniversity.org/images/files/study-material/Intel%208086.pdf)
+>- 
