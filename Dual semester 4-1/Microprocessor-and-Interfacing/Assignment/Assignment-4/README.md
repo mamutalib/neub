@@ -8,4 +8,4 @@
 
 ## Necessary link
 >- [8086 is a 16-bit Microprocessor](https://www.davuniversity.org/images/files/study-material/Intel%208086.pdf)
->- 
+>- [Registers in 8086](https://www.tutorialspoint.com/general-purpose-registers-in-8086-microprocessor)
