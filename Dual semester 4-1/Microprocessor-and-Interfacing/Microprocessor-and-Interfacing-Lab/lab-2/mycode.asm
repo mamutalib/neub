@@ -1,7 +1,8 @@
 .MODEL SMALL
 .STACK 100H
 .DATA   
-msg db 'Hello There', 0dh, 0ah, '$'
+    msg db '**********', 0dh, 0ah, '$'  
+
 .CODE
 
 MAIN PROC   
@@ -10,8 +11,23 @@ MAIN PROC
     
     mov ah, 9         ; string print
     lea dx, msg        ; starting point
-    int 21h                         
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+    int 21h
+      
     
+ 
+   
+
     MOV AH, 4CH
     INT 21H
 
