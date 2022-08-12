@@ -14,3 +14,31 @@ data = {
         }
 
 print(data)
+print(len(data))
+
+print(data["name"])
+
+#inserting new data to dictionary
+
+data["year"] = 2020
+print(data)
+
+# Update year
+data.update({"year": 2022})
+print(data)
+
+# .remove can remove item from the dictionary
+# del keyword can delete whole dictinary also specific value
+
+
+for i in data:
+    print(i)
+
+for i in data.values():
+    print(i)
+for i in data:
+    print(data[i])
+    
+    
+data2 = data.copy()
+print(data2)
