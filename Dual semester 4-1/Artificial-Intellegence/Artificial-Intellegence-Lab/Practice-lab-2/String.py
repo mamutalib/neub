@@ -34,3 +34,8 @@ print(txt[0:]) #slicing to end
 print('\n')
 t = "Hello, World!"
 print(t[-5:-2])
+
+print(txt.upper())
+print(txt.lower())
+print(txt.strip())
+print(txt.split())

@@ -26,7 +26,7 @@ print(type(personAge))
 print(type(personName))
 print(type(personYoungOld)) 
 
-myInfo = list(("Mutalib", 24, "Male", "Bangladesh", "Student"))
+myInfo = list(("Mutalib", 24, "Male", "Bangladesh", "Student")) #list  can be define like this syntex
 
 
 # print(myInfo[0]) Will print only the first item
@@ -64,3 +64,8 @@ while i <len(myInfo):
 
 
 [print(x) for x in myInfo]
+
+print(len(myInfo))
+
+print(myInfo)
+print(myInfo[-5:-1])
