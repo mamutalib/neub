@@ -17,3 +17,7 @@ print(z)
 
 
 
+print(2e2/100)
+
+import random
+print(random.randrange(1,20))
