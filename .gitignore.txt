@@ -1,4 +1,4 @@
 # NEUB
 *.prob
 *.cph/
-*.idea
+.idea/
