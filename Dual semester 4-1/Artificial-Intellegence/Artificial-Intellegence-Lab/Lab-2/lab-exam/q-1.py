@@ -11,7 +11,7 @@ class Student:
         
 ## Grade class
 class Grade:
-    def __init(self,courseName):
+    def __init__(self,courseName):
         self.courseName = courseName
         self.attMarks = 0
         self.ttMarks = 0
