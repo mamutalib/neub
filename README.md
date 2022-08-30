@@ -38,4 +38,4 @@ _Call-to-Action buttons_
 
 ## License
 
-Released under [MIT](/LICENSE) by [@mamutalib](https://github.com/mamutalib).
+Released under [MIT](/LICENSE) by [@mamutalib](https://github.com/mamutalib). 

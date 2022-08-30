@@ -9,7 +9,7 @@
 ## Bio Informatics Lab
 
 ### DNA Counting
-```c++
+```py
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -30,7 +30,7 @@ int main() {
 }
 ```
 ### DNA complementary
-```c++
+```java
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -109,7 +109,7 @@ Sample input: AACGUAGGCUC
 ```
 ### DNA Reversal 
 
-```c++
+```php
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -148,7 +148,7 @@ Sample input: AACGTAGGCTC
 
 ```
 ### DNA Transcription
-```c++
+```c
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -180,7 +180,7 @@ Sample input: AACGTAGGCTC
 ```
 
 ### Smith WaterMan Algorithm
-```c++
+```py
 #include <bits/stdc++.h>
 using namespace std;
 
