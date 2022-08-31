@@ -1,0 +1,17 @@
+.MODEL SMALL
+.STACK 100H
+
+.CODE
+
+MAIN PROC
+    mov dx, 11100001b 
+    xor dx, 11100001b 
+    add dx, 11100001b 
+
+    mov ah, 2
+    int 21h
+    
+    MOV AH,4CH
+    INT 21H
+    MAIN ENDP
+END MAIN

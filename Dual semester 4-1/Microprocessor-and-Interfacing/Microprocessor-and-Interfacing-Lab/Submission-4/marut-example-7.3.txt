@@ -1,0 +1,19 @@
+.MODEL SMALL
+.STACK 100H
+
+.CODE
+
+MAIN PROC
+
+    mov al, 1h 
+    or al, 81h
+
+    mov ah,  2
+    mov dl, al
+    int 21h
+  
+ exit:
+    MOV AH,4CH
+    INT 21H
+    MAIN ENDP
+END MAIN
