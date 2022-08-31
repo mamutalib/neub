@@ -17,7 +17,9 @@ MAIN PROC
     int 21h
     mov dl, 0ah
     int 21h
-    mov ax, bx
+    mov ax, bx  
+    
+    call factorial
     
     call outdec
     
@@ -25,7 +27,19 @@ MAIN PROC
      mov ah, 4ch
      int 21h
      
-ENDP main
+ENDP main  
+factorial proc ; Returns the factorial of ax in ax
+    
+    push cx
+    mov cx, ax   
+    mov ax, 1
+ label3:
+    mul cx
+    loop label3
+    
+    pop cx
+    ret
+factorial endp
            
 outdec proc
     push ax
