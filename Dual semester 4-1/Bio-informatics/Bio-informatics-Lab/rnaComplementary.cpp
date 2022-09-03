@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void dnaComplementary(string str) {
+void ranComplementary(string str) {
     int len = str.length();
     for (int i = 0; i<len; i++) {
         if(str[i] == 'A'){
@@ -25,7 +25,7 @@ void dnaComplementary(string str) {
 int main() {
     string str;
     cin >> str;
-    dnaComplementary(str);
+    ranComplementary(str);
 
 }
 

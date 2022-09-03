@@ -8,7 +8,9 @@
 
 ## Bio Informatics Lab
 
-### DNA Counting
+<details>
+  <summary markdown="span"><i>DNA Counting</i></summary>
+
 ```py
 #include <bits/stdc++.h>
 using namespace std;
@@ -29,7 +31,11 @@ int main() {
     cout << A << " " << C << " " << G << " "<< T <<  endl;
 }
 ```
-### DNA complementary
+</details>
+
+<details>
+    <summary> <i>DNA Complementary</i> </summary>
+
 ```java
 #include <bits/stdc++.h>
 using namespace std;
@@ -69,12 +75,16 @@ AACCTAGCTC
 TTGGATGGAG
 */
 ```
-### RNA Complementary 
+</details>
+
+<details>
+<summary><i>RNA Complementary</i></summary>
+
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
 
-void dnaComplementary(string str) {
+void rnaComplementary(string str) {
     int len = str.length();
     for (int i = 0; i<len; i++) {
         if(str[i] == 'A'){
@@ -98,7 +108,7 @@ void dnaComplementary(string str) {
 int main() {
     string str;
     cin >> str;
-    dnaComplementary(str);
+    rnaComplementary(str);
 
 }
 
@@ -107,7 +117,10 @@ Sample input: AACGUAGGCUC
         output; UUGCAUCCGAG
 */
 ```
-### DNA Reversal 
+</details>
+
+<details>
+    <summary><i>DNA Reversal</i></summary>
 
 ```php
 #include <bits/stdc++.h>
@@ -145,9 +158,12 @@ int main() {
 Sample input: AACGTAGGCTC
     output: GAGCCTACGTT
 */
-
 ```
-### DNA Transcription
+</details>
+
+<details>
+<summary><i>DNA Transcription</i></summary>
+
 ```c
 #include <bits/stdc++.h>
 using namespace std;
@@ -175,11 +191,13 @@ int main() {
 Sample input: AACGTAGGCTC
     output: AACGUAGGCUC
 */
-
-
 ```
+</details>
 
-### Smith WaterMan Algorithm
+<details>
+
+<summary><i>Smith WaterMan Algorithm</i> </summary>
+
 ```py
 #include <bits/stdc++.h>
 using namespace std;
@@ -227,5 +245,4 @@ int main() {
     return 0;
 }
 ```
-
-
+</details>
