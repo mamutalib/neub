@@ -8,9 +8,7 @@
 
 ## Bio Informatics Lab
 
-<details>
-  <summary markdown="span"><i>DNA Counting</i></summary>
-
+### DNA Counting
 ```py
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,11 +29,7 @@ int main() {
     cout << A << " " << C << " " << G << " "<< T <<  endl;
 }
 ```
-</details>
-
-<details>
-    <summary> <i>DNA Complementary</i> </summary>
-
+### DNA complementary
 ```java
 #include <bits/stdc++.h>
 using namespace std;
@@ -75,11 +69,7 @@ AACCTAGCTC
 TTGGATGGAG
 */
 ```
-</details>
-
-<details>
-<summary><i>RNA Complementary</i></summary>
-
+### RNA Complementary 
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
@@ -117,10 +107,7 @@ Sample input: AACGUAGGCUC
         output; UUGCAUCCGAG
 */
 ```
-</details>
-
-<details>
-    <summary><i>DNA Reversal</i></summary>
+### DNA Reversal 
 
 ```php
 #include <bits/stdc++.h>
@@ -158,12 +145,9 @@ int main() {
 Sample input: AACGTAGGCTC
     output: GAGCCTACGTT
 */
+
 ```
-</details>
-
-<details>
-<summary><i>DNA Transcription</i></summary>
-
+### DNA Transcription
 ```c
 #include <bits/stdc++.h>
 using namespace std;
@@ -191,13 +175,11 @@ int main() {
 Sample input: AACGTAGGCTC
     output: AACGUAGGCUC
 */
+
+
 ```
-</details>
 
-<details>
-
-<summary><i>Smith WaterMan Algorithm</i> </summary>
-
+### Smith WaterMan Algorithm
 ```py
 #include <bits/stdc++.h>
 using namespace std;
@@ -245,4 +227,4 @@ int main() {
     return 0;
 }
 ```
-</details>
+
