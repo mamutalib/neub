@@ -1,4 +1,4 @@
-# neub
+<!-- # neub
 Here, I will upload the files about of my courses that I taught in North East University.  
 ![GitHub repo size](https://img.shields.io/github/repo-size/mamutalib/neub?style=flat-square)
 
@@ -33,8 +33,10 @@ _Call-to-Action buttons_
 
 [![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
 
-</div>
+</div> -->
 
+# North East University Bangladesh
+## Here, i will upload all the materials of my courses. 
 
 ## License
 
