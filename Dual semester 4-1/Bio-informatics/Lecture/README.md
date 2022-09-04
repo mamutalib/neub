@@ -5,7 +5,9 @@
 - [Lecture-4](./Bio-Lecture-4.pdf)
 - [Lecture-5](./Bio-Lecture-5.pdf)
 
-
+## Exam's Updated
+- Turotial-1: 08-09-22
+- Lab Exam: 11-09-2022
 ## Bio Informatics Lab
 
 ### DNA Counting
