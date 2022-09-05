@@ -74,11 +74,22 @@ int main() {
 } */
 
 //RNA Complementary 
-#include <bits/stdc++.h>
+/* #include <bits/stdc++.h>
 using namespace std;
+void printStr(string str){
+    int len = str.size();
 
-rnaComplementary(string str) {
-    
+    cout << str << endl;
+}
+void rnaComplementary(string str) {
+    int len = str.size();
+    for(int i = 0; i<len; i++) {
+        if (str[i] == 'A') str[i] = 'U';
+        else if (str[i] == 'U') str[i] = 'A';
+        else if (str[i] == 'C') str[i] = 'G';
+        else if (str[i] == 'G') str[i] = 'C';
+    }
+    printStr(str);
 }
 
 
@@ -86,11 +97,10 @@ int main(void) {
 
     string str;
     cin >> str;
-
-    printStr(str);
+    rnaComplementary(str);
     return 0;
 }
-
+ */
 
 
 //DNA Reversal 
@@ -116,3 +126,12 @@ int main(void) {
     cin >> str;
     
 } */
+
+// RNA Reverse 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(void) {
+    
+    return 0;
+}
