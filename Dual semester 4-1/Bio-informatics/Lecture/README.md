@@ -4,6 +4,7 @@
 - [Lecture-3](./BiO-Lecture-3.pdf)
 - [Lecture-4](./Bio-Lecture-4.pdf)
 - [Lecture-5](./Bio-Lecture-5.pdf)
+- [Lecture-6](./Lecture-6.pdf)
 
 ## Exam's Updated
 - <b>Tutorial-1:</b> 08-09-22
