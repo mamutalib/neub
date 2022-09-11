@@ -1,14 +1,14 @@
 ## Bio Informatics Lecture 
-- [Lecture-1](./BIO-Info-Lecture-1.pdf)
+<!-- - [Lecture-1](./BIO-Info-Lecture-1.pdf)
 - [Lecture-2](./BiO-Lecture-2.pdf)
 - [Lecture-3](./BiO-Lecture-3.pdf)
 - [Lecture-4](./Bio-Lecture-4.pdf)
 - [Lecture-5](./Bio-Lecture-5.pdf)
-- [Lecture-6](./Lecture-6.pdf)
-
-## Exam's Updated
-- <b>Tutorial-1:</b> 08-09-22
-- <b>Lab Exam:</b>. 11-09-2022
+- [Lecture-6](./Lecture-6.pdf) -->
+- [Lecture-1-6](./bio_merged.pdf)
+## Exam's Date
+- <del><b>Tutorial-1:</b> 08-09-22</del>
+- <b>Lab Exam:</b>. 18-09-2022 (Rescheduled)
 
 ## Bio Informatics Lab
 - [DNA Counting](https://mamutalib.github.io/neub/Dual%20semester%204-1/Bio-informatics/Lecture/#dna-counting)
