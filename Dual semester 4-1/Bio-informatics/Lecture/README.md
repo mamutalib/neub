@@ -8,7 +8,13 @@
 - [Lecture-1-6](./bio_merged.pdf)
 ## Exam's Date
 - <del><b>Tutorial-1:</b> 08-09-22</del>
-- <b>Lab Exam:</b>. 18-09-2022 (Rescheduled)
+- <b>Lab Exam:</b>. 16-10-2022 (Rescheduled)
+
+## Tutorial Question
+#### Set-A
+> <img src="../Questions/TT1-Set-A.jpg" alt="alt text" title="image Title" />
+#### Set-B
+> <img src="../Questions/TT1-Set-B.jpg" alt="alt text" title="image Title" />
 
 ## Bio Informatics Lab
 - [DNA Counting](https://mamutalib.github.io/neub/Dual%20semester%204-1/Bio-informatics/Lecture/#dna-counting)
