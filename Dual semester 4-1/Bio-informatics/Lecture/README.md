@@ -13,10 +13,26 @@
 
 ## Tutorial Question
 #### Set-A
-> <img src="../Questions/TT1-Set-A.jpg" alt="SET-A" title="image Title" /> <br>
+> <img src="../Questions/TT1-Set-A.jpg" alt="SET-A" title="image Title" />
+Question 1 ans: 
+
+    a)False
+    b)True
+    c)True
+    d)True
+    e)false
+
+ <br>
 
 #### Set-B
 > <img src="../Questions/TT1-SET-B.jpg" alt="Set-B" title="image Title" />
+Question 1 ans
+
+    a)True
+    b)true
+    c)false
+    d)True
+    e)false
 
 ## Bio Informatics Lab
 - [DNA Counting](https://mamutalib.github.io/neub/Dual%20semester%204-1/Bio-informatics/Lecture/#dna-counting)
