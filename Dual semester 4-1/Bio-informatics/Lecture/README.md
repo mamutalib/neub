@@ -12,9 +12,9 @@
 
 ## Tutorial Question
 #### Set-A
-> <img src="../Questions/TT1-Set-A.jpg" alt="alt text" title="image Title" />
+> <img src="../Questions/TT1-Set-A.jpg" alt="SET-A" title="image Title" /> <br>
 #### Set-B
-> <img src="../Questions/TT1-Set-B.jpg" alt="alt text" title="image Title" />
+> <img src="../Questions/TT1-SET-B.jpg" alt="Set-B" title="image Title" />
 
 ## Bio Informatics Lab
 - [DNA Counting](https://mamutalib.github.io/neub/Dual%20semester%204-1/Bio-informatics/Lecture/#dna-counting)
