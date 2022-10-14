@@ -1,0 +1,41 @@
+.MODEL small
+.STACK 100H
+.DATA  
+STR1 DB 'DH = '
+  VAL1 DB ?
+  STR2 DB 0AH,0DH,'CF = '
+  VAL2 DB ?
+  FINISH DB '$'
+.CODE
+MAIN PROC
+    MOV AX,@DATA
+    MOV DS,AX
+ 
+    MOV AL,8AH
+    MOV CL,3    
+    SHL AL,CL   
+    MOV VAL1,AL 
+ 
+    JC ONE      
+ 
+    MOV BL,'0'  
+    MOV VAL2,BL 
+    JMP exit  
+ 
+    ONE:
+        MOV BL,'1'    
+        MOV VAL2,BL   
+        JMP exit      
+ 
+     
+    exit:
+ 
+    MOV AH,9      
+    LEA DX,STR1   
+    INT 21H  
+ 
+    MOV AH,4CH
+    INT 21H
+
+ENDP MAIN
+END MAIN    
