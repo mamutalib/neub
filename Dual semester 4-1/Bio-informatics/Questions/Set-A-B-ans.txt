@@ -1,0 +1,14 @@
+Set-A
+a)False
+b)True
+c)True
+d)True
+e)false
+
+Set-B:
+Set B:Ans
+a)True
+b)true
+c)false
+d)True
+e)false
