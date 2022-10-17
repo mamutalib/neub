@@ -1,7 +1,0 @@
-Assignment:1)How it changes both the relative costs of capital and the costs of information?
-2)Organizational resistance to information sysyem innovations.
-Tutorial assignment : 1)How a DBMS solves the problems of the traditional file Environment.
-Short note:1.voice over ip- page 295
-2)search eng. marketing- page- 302
-3)search eng. Optimization. Page-302
-4)Rado Frequency identification (RFID) page-310
