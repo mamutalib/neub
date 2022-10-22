@@ -10,7 +10,7 @@
 
 ## Exam's Date
 - <del><b>Tutorial-1:</b> 08-09-22</del>
-- <b>Lab Exam:</b>. 16-10-2022 (Rescheduled)
+- <b>Lab Exam:</b>. 23-10-2022 (Rescheduled)
 
 ## Tutorial Question
 #### Set-A
