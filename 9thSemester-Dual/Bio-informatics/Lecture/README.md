@@ -43,6 +43,7 @@ Question 1 ans
 - [DNA Transcription](https://mamutalib.github.io/neub/Dual%20semester%204-1/Bio-informatics/Lecture/#dna-transcription)
 - [Smith Waterman Algorithm](https://mamutalib.github.io/neub/Dual%20semester%204-1/Bio-informatics/Lecture/#dna-transcription)
 - [Needleman Algorithm](https://mamutalib.github.io/neub/Dual%20semester%204-1/Bio-informatics/Lecture/#needleman-algorithm)
+- [Edit Distance](https://mamutalib.github.io/neub/9thSemester-Dual/Bio-informatics/Lecture/#edit-distance)
 
 ### DNA Counting
 ```py
@@ -376,7 +377,6 @@ int main(void) {
         data[0][j] = j;
     }
 
-   // int match,res;
     int up_adj, lft_adj, dig_adj;
 
     for( int i=1; i<row; i++)
