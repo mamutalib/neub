@@ -209,3 +209,127 @@ int main() {
 
 
 
+// Needleman Algoritm
+/* #include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string ls, rs;
+    cin >> ls >> rs;
+
+    int row, col;
+    row = ls.length()+1;
+    col = rs.length()+1;
+
+    int data[row][col];
+
+    for(int i = 0; i<row; i++){
+        for(int j = 0; j<col; j++) {
+            data[i][j] = 0;
+        }
+    }
+
+    for(int i =0; i<1; i++) {
+        for(int j =1; j<col; j++) {
+            data[i][j] = -j*2;
+        }
+    }
+    for(int i =0; i<row; i++) {
+        for(int j =0; j<1; j++) {
+            data[i][j] = -i*2;
+        }
+    }
+
+    for(int i =0; i<row; i++){
+        for(int j = 0; j<col; j++) {
+            cout << data[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    int match = 1 ,misMatch = -1,gap = -2;
+    int lef_adj = 0, up_adj = 0, dia_adj = 0;
+
+    for(int i = 1; i<row; i++) {
+        for(int j = 1; j<col; j++) {
+            lef_adj = data[i-1][j]+gap;
+            up_adj = data[i][j-1]+gap;
+
+            if(ls[i-1]==rs[j-1]){
+                dia_adj= data[i-1][j-1]+match;
+            }
+            else {
+                dia_adj = data[i-1][j-1]+misMatch;
+            }
+            data[i][j] = max(lef_adj,up_adj);
+            data[i][j] = max(data[i][j], dia_adj);
+        }
+    }
+
+
+     cout << endl;
+
+     for (int i = 0; i<row; i++) {
+        for (int j = 0; j<col; j++) {
+            cout << data[i][j] << " ";
+        }
+
+        cout << "\n";
+    }
+
+} */
+
+// Edit Distance
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(void) {
+
+    string str1,str2;
+    int row,col;
+
+    cin >> str1>> str2;
+
+    row = str1.length()+1;
+    col = str2.length()+1;
+    int data[row][col];
+
+    for(int i=0; i<row; i++){
+        data[i][0] = i;
+    }
+
+    for( int j=0; j<col; j++){
+        data[0][j] = j;
+    }
+
+    int up_adj, lft_adj, dig_adj;
+
+    for( int i=1; i<row; i++)
+    {
+        for(int j=1; j<col; j++)
+        {
+            lft_adj = data[i-1][j] ;
+            up_adj = data[i][j-1];
+            dig_adj = data[i-1][j-1];
+
+            if(str1[i-1] == str2[j-1])
+            {
+                data[i][j]= dig_adj;
+            }
+            else
+            {
+                data[i][j] = min(lft_adj+1 ,up_adj+1 );
+                data[i][j] = min(data[i][j], dig_adj+1 );
+            }
+        }
+    }
+
+    for(int i = 0; i<row; i++) {
+        for(int j = 0; j<col; j++) {
+            cout << data[i][j] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
