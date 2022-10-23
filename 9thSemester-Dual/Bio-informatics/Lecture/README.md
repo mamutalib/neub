@@ -50,21 +50,23 @@ Question 1 ans
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-
+int main(void) {
     string str;
     cin >> str;
 
-    int len = str.length();
-    int A=0, C=0, G=0, T=0;
-    for (int i = 0; i<len; i++) {
-        if(str[i] == 'A') A++;
-        if(str[i] == 'C') C++;
-        if(str[i] == 'G') G++;
-        if(str[i] == 'T') T++;
+    int len = str.size();
+    int a = 0, c = 0, g = 0, t = 0;
+    for(int i = 0; i<len; i++) {
+        if(str[i] == 'A') a++;
+        else if (str[i] == 'C') c++;
+        else if (str[i] == 'G') g++;
+        else if (str[i] == 'T') t++;
     }
-    cout << A << " " << C << " " << G << " "<< T <<  endl;
+    cout << "A: " << a << " C: " << c << " G: " << g << " T: " << t << endl;
+    return 0;
 }
+// Sample input: ACGTATTC
+//        Ouput: A: 2 C: 2 G: 1 T: 3
 ```
 ### DNA complementary
 ```java
@@ -83,7 +85,7 @@ void dnaComplementary(string str) {
         else if(str[i] == 'C'){
             str[i] = 'G';
         }
-        else if(str[i] == 'C'){
+        else if(str[i] == 'G'){
             str[i] = 'C';
         }
     }
@@ -102,8 +104,8 @@ int main() {
 
 /*
 Sample input-output:
-AACCTAGCTC
-TTGGATGGAG
+ACGTATTC
+TGCATAAG
 */
 ```
 ### RNA Complementary 
@@ -140,8 +142,8 @@ int main() {
 }
 
 /*
-Sample input: AACGUAGGCUC
-        output; UUGCAUCCGAG
+Sample input:AACGUAGGCUC
+    output  :UUGCAUCCGAG
 */
 ```
 ### DNA Reversal 
@@ -162,7 +164,7 @@ void dnaReversal(string str) {
         else if(str[i] == 'C'){
             str[i] = 'G';
         }
-        else if(str[i] == 'C'){
+        else if(str[i] == 'G'){
             str[i] = 'C';
         }
     }
@@ -179,8 +181,8 @@ int main() {
 }
 /*
 
-Sample input: AACGTAGGCTC
-    output: GAGCCTACGTT
+Sample input  : AACGTAGGCTC
+        output: GAGCCTACGTT
 */
 
 ```
@@ -210,7 +212,7 @@ int main() {
 /*
 
 Sample input: AACGTAGGCTC
-    output: AACGUAGGCUC
+    output  : AACGUAGGCUC
 */
 
 
