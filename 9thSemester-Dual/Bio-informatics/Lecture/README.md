@@ -10,7 +10,14 @@
 
 ## Exam's Date
 - <del><b>Tutorial-1:</b> 08-09-22</del>
-- <b>Lab Exam:</b>. 23-10-2022 (Rescheduled)
+- <del>Lab Exam:</b>. 23-10-2022 (Rescheduled)</del><b>
+
+## Class Schedule
+
+>   Sunday - 8.30-11.25 #309 (lab) 
+    Tuesday - 10.00 #206
+    Thursday - 10.00 #214
+
 
 ## Tutorial Question
 #### Set-A
