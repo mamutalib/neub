@@ -14,9 +14,9 @@
 
 ## Class Schedule
 
->   Sunday - 8.30-11.25 #309 (lab) 
-    Tuesday - 10.00 #206
-    Thursday - 10.00 #214
+* Sunday - 8.30-11.25 #309 (lab) 
+* Tuesday - 10.00 #214
+* Thursday - 10.00 #214
 
 
 ## Tutorial Question
